@@ -37,8 +37,7 @@ AI-powered chatbot for PC component recommendations, pricing, and inventory mana
 
 ### 1. Clone Repository
 ```bash
-git clone <https://github.com/Hamzajani153/Ai_Ecommerece_Chatbot.git>
-cd chatbot_ecom
+git clone https://github.com/Hamzajani153/Ai_Ecommerece_Chatbot.git
 ```
 
 ### 2. Setup Environment Variables
