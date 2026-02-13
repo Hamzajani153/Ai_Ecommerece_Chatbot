@@ -1,0 +1,40 @@
+[project]
+name = "chatbot-ecom"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3==1.35.36",
+    "chromadb==0.6.3",              # unified with other workspace components
+    "fastapi==0.115.0",
+    "email-validator==2.3.0",
+    "langchain>=0.3.26",            # pin a single langchain release (example)
+    "langchain-core>=0.3.63",
+    "langchain-openai>=0.3.27",
+    "langchain-community>=0.3.5",
+    "motor>=3.7.1",
+    "numpy==1.26.4",
+    "openai>=1.76.2",               # align with personal-chatbot-backend
+    "openpyxl==3.1.5",
+    "pandas==2.2.3",
+    "passlib[bcrypt]==1.7.4",
+    "pdf2image==1.17.0",
+    "pydantic==2.10.6",             # explicit pydantic pin
+    "pydantic-settings==2.6.0",
+    "pymongo>=4.15.5",
+    "pymupdf==1.24.13",
+    "python-docx==1.1.2",
+    "python-dotenv==1.0.1",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.12",
+    "python-pptx==1.0.2",
+    "tenacity==9.0.0",
+    "tiktoken==0.9.0",              # align with workspace where needed
+    "uvicorn[standard]==0.32.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "chatbot_ecommerce",
+]
