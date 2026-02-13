@@ -47,7 +47,7 @@ cp .env.example .env
 
 Edit `.env`:
 ```env
-MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/dbname
+MONGODB_URI=mongodb+srv://.....
 JWT_SECRET_KEY=your-secure-random-string
 OPENAI_API_KEY=sk-proj-your-openai-key
 ```
